@@ -105,13 +105,13 @@ function simulateScan() {
     if (currentMode === 'login') {
         // LOGIC: Set the login time
         loginTimestamp = new Date();
-        showToast("Login success");
+        showToast("تم تسجيل الدخول بنجاح");
         console.log("Logged in at: " + loginTimestamp);
     } 
     else if (currentMode === 'logout') {
         // LOGIC: Check time difference
         if (!loginTimestamp) {
-            showToast("You haven't logged in yet!");
+            showToast("لم تقم بتسجيل الدخول بعد");
             return;
         }
 
@@ -123,11 +123,12 @@ function simulateScan() {
 
         if (diffInMinutes < 2) {
             // Less than 2 minutes
-            showToast("You didn't finish your daily hours, try again later");
+            showToast("لم يتم تسجيل الخروج بعد الرجاء اكمال حد الساعات المطلوب");
         } else {
             // Success
             showToast("Logout success");
             loginTimestamp = null; // Reset for next day testing
         }
     }
+
 }
