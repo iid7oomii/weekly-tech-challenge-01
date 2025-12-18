@@ -6,7 +6,7 @@
 Users at the academy need to scan a QR code to log in and log out. However, there is a strict rule: **You cannot log out if you haven't completed the minimum required hours.** I wanted to create a simulation to test this logic visually and ensure the user gets the correct feedback (Success vs. Error messages) based on the time elapsed.
 
 ### 💡 The Solution
-I built a mobile-responsive web prototype that mimics the real Tuwaiq Academy portal. 
+I built a mobile-responsive web prototype that mimics the real Tuwaiq Academy portal.
 
 **Key Features:**
 - **Simulated Scanner:** A button to simulate the physical kiosk scan.
@@ -21,12 +21,14 @@ I built a mobile-responsive web prototype that mimics the real Tuwaiq Academy po
   - `setInterval` for the QR countdown timer.
   - DOM manipulation for modal management.
 
-### 📸 Preview
-*(You can upload a screenshot of your app here later)*
-
 ### 🚀 How to Run
-You can view the live simulation here: 
-[**Link to your GitHub Page**](https://YOUR-USERNAME.github.io/REPO-NAME)
+You can view the live simulation here:  
+👉 **[Live Demo: Attendance Kiosk Simulation](https://iid7oomii.github.io/weekly-tech-challenge-01/)**
+
+> **Note:** This project is designed for **Mobile View**. If opening on a desktop, please use DevTools (Inspect Element) and toggle the Device Toolbar to "iPhone 12" for the best experience.
+
+### 📸 Preview
+*(Screenshots of the interface)*
 
 ---
 *Created by Abdulrahman Alghamdi*
