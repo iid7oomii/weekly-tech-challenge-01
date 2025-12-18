@@ -25,10 +25,6 @@ I built a mobile-responsive web prototype that mimics the real Tuwaiq Academy po
 You can view the live simulation here:  
 👉 **[Live Demo: Attendance Kiosk Simulation](https://iid7oomii.github.io/weekly-tech-challenge-01/)**
 
-> **Note:** This project is designed for **Mobile View**. If opening on a desktop, please use DevTools (Inspect Element) and toggle the Device Toolbar to "iPhone 12" for the best experience.
-
-### 📸 Preview
-*(Screenshots of the interface)*
-
+> **Note:** This project is designed for **Mobile View**.
 ---
 *Created by Abdulrahman Alghamdi*
