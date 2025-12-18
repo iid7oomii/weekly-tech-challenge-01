@@ -11,7 +11,7 @@ I built a mobile-responsive web prototype that mimics the real Tuwaiq Academy po
 **Key Features:**
 - **Simulated Scanner:** A button to simulate the physical kiosk scan.
 - **Time Logic:** The system tracks the exact timestamp of login.
-- **Validation:** - If you try to logout *before* 2 minutes (test duration) → ❌ Error: "You didn't finish your daily hours."
+- **Validation:** - If you try to logout *before* 2 minutes (test duration) → ❌ Error: "لم تكمل حد الساعات المطلوب."
   - If you logout *after* 2 minutes → ✅ Success: "Logout success."
 
 ### 🛠️ Technologies Used
